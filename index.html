@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic arithmetic operations</title>
+</head>
+<body>
+    <script>
+        var numberA = parseFloat(prompt("Please enter number A: "));
+        var operator = prompt("Please enter an operator (+, -, *, /): ");
+        var numberB = parseFloat(prompt("Please enter number B: "));
+        if (operator == "+") {
+            alert("Result is: " + (numberA + numberB));
+        } else if (operator == "-") {
+            alert("Result is: " + (numberA - numberB));
+        } else if (operator == "*") {
+            alert("Result is: " + (numberA * numberB));
+        } else if (operator == "/") {
+            alert("Result is: " + (numberA / numberB));
+        } else {
+            alert("The values entered are incorrect!")
+        }
+    </script>
+</body>
+</html>
